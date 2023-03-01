@@ -1,3 +1,3 @@
 import { dictinary } from "./index";
 
-console.log(dictinary);
+console.log(dictinary, "dd");
