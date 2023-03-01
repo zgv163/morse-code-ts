@@ -3,7 +3,7 @@ name: Publish to NPM 🚀
 on:
   push:
     tags:
-      - "**.**.**"
+      - "Upgrade**"
 
 env:
   NPN_TOKEN: ${{secrets.NPM_TOKEN}}
