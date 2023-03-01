@@ -2,7 +2,8 @@ name: Publish to NPM 🚀
 
 on:
   push:
-    branches: ["master"]
+    tags:
+      - '^(\d+\.)?(\d+\.)?(\*|\d+)$'
 
 env:
   NPN_TOKEN: ${{secrets.NPM_TOKEN}}
